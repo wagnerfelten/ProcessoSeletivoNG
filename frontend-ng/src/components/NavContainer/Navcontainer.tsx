@@ -1,7 +1,7 @@
 import Logoff from "../Logoff/logoff";
 import './Style.css';
 
-function NavContainer() {
+const NavContainer = () => {
     return (
      <>
         <main className="nav-container">

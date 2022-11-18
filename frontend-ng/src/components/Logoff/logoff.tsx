@@ -1,6 +1,6 @@
 import './style.css'
 
-function Logoff() {
+const Logoff = () => {
     return (
       <div className="nav-logoff">
         <a href="#link">Logoff</a>
