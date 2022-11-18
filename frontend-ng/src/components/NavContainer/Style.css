@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? family= Indie+Flower & family= Poppins:ital,wght@1,300;1,700 & display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-container{
+    background-color: #121214;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-logo{
+    color: aliceblue;
+    padding: 0px 30px 0 20px;
+}
+
+.nav-logo span{
+    font-family: "Regular";
+    font-weight: 700;
+    font-size: 63px;
+}
+
+.logoff{
+    color: aliceblue;
+    margin: 0px 30px;
+}
