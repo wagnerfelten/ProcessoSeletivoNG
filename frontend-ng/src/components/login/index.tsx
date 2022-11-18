@@ -1,17 +1,29 @@
 import './style.css';
 import logo from '../../img/logo.png';
 
+
 const Login = () => {
     return (
     
-    <div>
-        <div>
+    <div className='login-container'>
+        <div className='logo'>
             <img src={logo} alt="Logo" />
-            <h2>Sistema Tarefa</h2>
+            <h2>Task System</h2>
         </div>
 
-        <div>
+        <div className='login'>
+            <label htmlFor="">Login:</label>
+            <input type="text" />
+            <label htmlFor="Passoword">Passoword:</label>
+            <input type="Passoword" />
+        
             
+        </div>
+
+        <button className='button-login' type='submit'>Login</button>
+        
+        <div className='cadastro'>
+            <a href="link">Registration</a>
         </div>
     </div>
     );
