@@ -1,13 +1,11 @@
 
 import './App.css';
-import Login from './components/login';
-import NavContainer from './components/NavContainer/Navcontainer';
+import Registration from './pages/Registration';
 
 function App() {
   return (
     <>
-      <NavContainer />
-      <Login />
+      <Registration />
      
    </>
   );

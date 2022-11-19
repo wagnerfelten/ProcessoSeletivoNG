@@ -15,7 +15,7 @@ const Login = () => {
             <label htmlFor="">Login:</label>
             <input type="text" />
             <label htmlFor="Passoword">Passoword:</label>
-            <input type="Passoword" />
+            <input type="password" minLength={4}  required/>
         
             
         </div>

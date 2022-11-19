@@ -1,0 +1,60 @@
+*{
+    background-color: black;
+}
+
+.regis-container{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.regis h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.regis-input{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    margin: 20px auto;
+
+    width: 400px;
+    
+}
+
+.regis-input label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.regis-input input{
+    border-radius: 10px;
+    height: 35px;
+    color: white;
+    padding-left: 10px;
+}
+
+button{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #14757e;
+    background-color: aqua;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #17aaa8;
+}
