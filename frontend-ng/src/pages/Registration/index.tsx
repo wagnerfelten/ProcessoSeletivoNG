@@ -15,7 +15,7 @@ const Registration = () => {
                 <input type="text" />
                 <label htmlFor="password">Password:</label>
                 <input type="password" />
-                <label htmlFor="number">Id</label>
+                <label htmlFor="email">Email:</label>
                 <input type="text" name="id" id="id" />
             </div>
 

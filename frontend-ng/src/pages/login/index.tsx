@@ -23,7 +23,7 @@ const Login = () => {
         <button className='button-login' type='submit'>Login</button>
         
         <div className='cadastro'>
-            <a href="link">Registration</a>
+            <a href="/Registration">Registration</a>
         </div>
     </div>
     );

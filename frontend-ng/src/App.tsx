@@ -1,11 +1,12 @@
 
 import './App.css';
 import Registration from './pages/Registration';
+import Routes from './Routes';
 
 function App() {
   return (
     <>
-      <Registration />
+      <Routes />
      
    </>
   );
